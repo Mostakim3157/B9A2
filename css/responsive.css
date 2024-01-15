@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  /* header starts */
+
+  /* navbar starts */
+
+  nav{
+    margin-left: 20px;
+    position: relative;
+  }
+  .nav-bar {
+    display: none;
+    
+  }
+
+#hide{
+    display: inline-block;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -19px;
+
+}
+  .website-name {
+    
+    width: 100%;
+   
+  }
+
+  .website-name-h3 {
+    font-size: 1.5rem;
+  }
+
+  .website-logo {
+    width: 8%;
+  }
+
+  /* banner starts */
+
+  
+}
