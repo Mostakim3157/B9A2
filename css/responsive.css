@@ -4,7 +4,7 @@
   /* navbar starts */
 
   nav{
-    margin-left: 20px;
+    margin-left: 50px;
     position: relative;
   }
   .nav-bar {
@@ -15,8 +15,8 @@
 #hide{
     display: inline-block;
     position: absolute;
-    margin-left: 300px;
-    margin-top: -19px;
+    margin-left: 420px;
+    margin-top: -23px;
 
 }
   .website-name {
@@ -26,14 +26,39 @@
   }
 
   .website-name-h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .website-logo {
-    width: 8%;
+    width: 10%;
   }
 
   /* banner starts */
 
-  
+
+  /* main starts */
+
+  /* popular tours starts*/
+
+.popular-tours-container{
+    display: flex;
+    flex-direction: column;
+   margin-top: 0px;
+
+    
+ }
+ .popular-tours-text{
+     width: 100%;
+     padding: 50px;
+
+ }
+ 
+ .popular-tours-img{
+     width: 100%;
+     width: 335px;
+     height: 340px;
+     margin: 0 auto;
+ }
+
+
 }
