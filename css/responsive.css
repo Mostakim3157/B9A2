@@ -87,6 +87,18 @@
     width: 90%;
   }
 
+  #when-icon {
+    margin-left: 310px;
+    margin-top: 91px;
+  }
+
+  #types-icon{
+    margin-left: 310px;
+    margin-top: 162px;
+
+
+  }
+
   /* main starts */
 
   /* popular tours starts*/
@@ -107,6 +119,32 @@
     height: 340px;
     margin: 0 auto;
   }
+
+/* destination starts */
+
+
+.row-1,
+.row-2,
+.row-3{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:0px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7{
+width: 450px;
+height: 276px; 
+margin-top:24px;
+background-size: cover;
+}
+
 
   /* choose us starts */
 
