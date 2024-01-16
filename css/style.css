@@ -80,6 +80,100 @@ nav {
 }
 
 /* banner starts */
+.banner {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.banner-container {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.banner-p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 60%;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.banner-items {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px 16px 16px 0px;
+}
+
+#banner-item-text,
+#banner-item-type,
+#banner-item-when {
+  border: none;
+  background: #fff;
+  padding: 1rem;
+  appearance: none;
+  width: 174px;
+  height: 52px;
+  margin-left: 24px;
+  border-radius: 8px;
+  color: rgba(19, 19, 24, 0.5);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#banner-item-text::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#when-icon {
+  position: absolute;
+  margin-left: -31px;
+  margin-top: 20px;
+}
+
+#types-icon {
+  position: absolute;
+  margin-left: -31px;
+  margin-top: 20px;
+}
+
+#banner-btn {
+  border: none;
+  padding: 16px;
+  width: 174px;
+  height: 52px;
+  margin-left: 24px;
+  border-radius: 8px;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#btn-icon {
+  margin-right: 10px;
+}
 
 /* main section starts */
 main {
@@ -211,7 +305,6 @@ main {
   justify-content: space-between;
   align-items: center;
   margin: 100px 0px;
-  
 }
 
 .news-text {
@@ -291,7 +384,6 @@ main {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
- 
 }
 
 .save-upto-h3 {
@@ -299,9 +391,6 @@ main {
   font-size: 2rem;
   font-weight: 800;
 }
-
-
-
 
 /* footer starts */
 
