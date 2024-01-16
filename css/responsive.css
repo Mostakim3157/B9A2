@@ -160,6 +160,20 @@ background-size: cover;
     border-radius: 16px;
     padding: 32px;
     margin-bottom: 22px;
+    
+  }
+
+  /* we provide starts */
+
+  .we-provide-container {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+  }
+
+  .service {
+    margin-top: 40px;
   }
 
   /* newsletter starts */
