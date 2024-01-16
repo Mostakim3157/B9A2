@@ -108,8 +108,29 @@
     margin-bottom: 22px;
   }
 
+  /* newsletter starts */
 
+  .newsletter-container {
+    flex-direction: column;
+    
+  }
 
+  .news-text{
+    width: 80%;
+  }
+
+  .news-img{
+    margin-top: 50px;
+    width: 80%;
+  }
+
+/* footer starts */
+
+#footer-name {
+  justify-content: center;
+  width: 100%;
+  padding-top: 60px;
+}
 
 
 
