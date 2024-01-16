@@ -3,6 +3,7 @@
 
   /* navbar starts */
 
+  
   nav{
     margin-left: 50px;
     position: relative;
@@ -32,8 +33,39 @@
   .website-logo {
     width: 10%;
   }
-
   /* banner starts */
+
+
+  nav{
+    margin-left: 50px;
+    position: relative;
+  }
+  .nav-bar {
+    display: none;
+    
+  }
+
+#hide{
+    display: inline-block;
+    position: absolute;
+    margin-left: 323px;
+    margin-top: -22px;
+
+}
+  .website-name {
+    
+    width: 100%;
+   
+  }
+
+  .website-name-h3 {
+    font-size: 2rem;
+  }
+
+  .website-logo {
+    width: 10%;
+  }
+
 
 
   /* main starts */
@@ -59,6 +91,26 @@
      height: 340px;
      margin: 0 auto;
  }
+
+/* choose us starts */
+
+.choose-us-box-1-2 {
+    flex-direction: column ;
+  }
+
+  .choose-us-box-1,
+  .choose-us-box-2,
+  .choose-us-box-3 {
+    width: 335px;
+    height: 350px;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 22px;
+  }
+
+
+
+
 
 
 }
